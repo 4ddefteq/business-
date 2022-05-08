@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>titile</title>
+  <meta charset="utf-8">
+  <style>
+    img.rot {
+      animation: 3s ease-in 0s normal none infinite running rot;
+      -webkit-animation: 1s linear 0s normal none infinite running rot;
+      animation-timing-function: steps(8, end);
+      width: 100px;
+    }
+    @keyframes rot {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    @-webkit-keyframes rot {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>
+    $(function() {
+    });
+  </script>
+</head>
+<body>
+  <img class="rot" src="https://cdn.iconscout.com/icon/free/png-256/grinning-face-smile-emoji-happy-37705.png">
+</body>
+</html>

@@ -1,0 +1,6 @@
+.text{
+    color: blue;
+}
+.text:hover{
+    color: blueviolet;
+}

@@ -1,0 +1,19 @@
+.p{
+    animation-duration: 3s;
+    animation-name: sidein;
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    animation-iteration-count: infinite;
+}
+@keyframes sidein {
+    from{
+        margin-left: 100%;
+        width: 100%;
+    }
+
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}

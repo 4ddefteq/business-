@@ -1,0 +1,17 @@
+.button{
+    color: aqua;
+    background-color: bisque;
+}
+.button:hover{
+    color: blueviolet;
+    background-color: azure;
+}
+#id1:hover{
+z-index: 3;
+}
+#id2:hover{
+    z-index: 2;
+}
+#id3:hover{
+    z-index: 1;
+}
